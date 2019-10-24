@@ -55,7 +55,7 @@ import MapContainer from './mapContainer'
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto" >
-                  <Nav.Link href="/sign-in" ><h3 style={{color: "white",fontSize: '40px',fontStyle: 'arial', marginLeft: '80px'}}>Home</h3></Nav.Link><br></br><br></br>
+                  <Nav.Link href="/sign-up" ><h3 style={{color: "white",fontSize: '40px',fontStyle: 'arial', marginLeft: '80px'}}>Home</h3></Nav.Link><br></br><br></br>
                   <Nav.Link href="/favorites"><h3 style={{color: "white", fontSize: '40px', marginLeft: '100px'}}>Favorites</h3></Nav.Link><br></br><br></br>
                 </Nav>
                 <NavDropdown title = "Grades" style={{fontSize: '35px',backgroundColor:'white',right: '30px',fontColor: ''}} >

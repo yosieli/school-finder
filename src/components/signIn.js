@@ -35,7 +35,7 @@ export default class SignIn extends React.Component {
           else{
             localStorage.setItem('token',user.auth_token)
             localStorage.setItem('user',user.id)
-            this.props.history.push('/home')
+            this.props.history.push('/')
           }
           
         })

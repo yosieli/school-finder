@@ -16,7 +16,7 @@ function App() {
           <BrowserRouter >   
             <Route exact path = '/sign-in' component={SignIn} />
             <Route exact path = '/sign-up' component={SignUp} />
-            <Route exact path = '/home' component={NavHome}/>
+            <Route exact path = '/' component={NavHome}/>
             <Route exact path = '/map' component = {MapContainer}/>
             <Route exact path = '/favorites' component = {Favorites}/>
           </BrowserRouter>
